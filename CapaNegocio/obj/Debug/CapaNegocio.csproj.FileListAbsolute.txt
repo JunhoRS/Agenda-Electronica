@@ -1,0 +1,9 @@
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaNegocio\obj\Debug\CapaNegocio.pdb

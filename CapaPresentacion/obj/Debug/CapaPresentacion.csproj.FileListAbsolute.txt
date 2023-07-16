@@ -1,0 +1,16 @@
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\obj\Debug\CapaPresentacion.Form1.resources
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Junho\Desktop\Programs\Agenda Electronica\CapaPresentacion\bin\Debug\CapaDatos.pdb
