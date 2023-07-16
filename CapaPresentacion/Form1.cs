@@ -38,6 +38,8 @@ namespace CapaPresentacion
                 GestorContactos.InsertarContacto(contacto);
                 MessageBox.Show("Contacto insertado correctamente");
                 LimpiarCampos();
+
+                CargarDatos();
             }
             catch (SqlException ex)
             {
@@ -70,6 +72,8 @@ namespace CapaPresentacion
                     GestorContactos.ModificarContacto(contacto);
                     MessageBox.Show("Contacto modificado correctamente");
                     LimpiarCampos();
+
+                    CargarDatos();
                 }
                 catch (SqlException ex)
                 {
@@ -137,6 +141,8 @@ namespace CapaPresentacion
                         GestorContactos.EliminarContacto(id);
                         MessageBox.Show("Contacto eliminado correctamente");
                         LimpiarCampos();
+
+                        CargarDatos();
                     }
                     catch (SqlException ex)
                     {
@@ -197,6 +203,11 @@ namespace CapaPresentacion
                 dataGridViewContactos.DataSource = tablaContactos;
 
             }
+        }
+
+        private void lblDireccion_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

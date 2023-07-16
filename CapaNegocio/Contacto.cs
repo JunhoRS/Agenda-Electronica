@@ -85,8 +85,30 @@ namespace CapaNegocio
 
         public static Contacto BuscarContacto(int id)
         {
-            // Implementa la lógica para buscar un contacto por su ID en la base de datos
-            return null;
+            using (SqlConnection conexion = ObtenerConexion())
+            {
+                SqlCommand comando = new SqlCommand("sp_BuscarContactoPorID", conexion);
+                comando.CommandType = System.Data.CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@ID", id);
+
+                SqlDataReader reader = comando.ExecuteReader();
+                if (reader.Read())
+                {
+                    Contacto contacto = new Contacto
+                    {
+                        ID = (int)reader["ID"],
+                        Nombre = reader["Nombre"].ToString(),
+                        Apellido = reader["Apellido"].ToString(),
+                        Direccion = reader["Direccion"].ToString(),
+                        FechaNacimiento = (DateTime)reader["FechaNacimiento"],
+                        Celular = reader["Celular"].ToString()
+                    };
+
+                    return contacto;
+                }
+
+                return null; // Si no se encuentra ningún contacto con el ID especificado
+            }
         }
 
         public static void EliminarContacto(int id)

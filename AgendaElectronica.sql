@@ -54,3 +54,5 @@ CREATE TABLE Contactos
     FechaNacimiento DATE,
     Celular NVARCHAR(20)
 );
+
+SELECT * FROM Contactos;

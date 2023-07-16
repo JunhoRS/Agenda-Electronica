@@ -32,7 +32,6 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.txtFechaNacimiento = new System.Windows.Forms.TextBox();
             this.txtCelular = new System.Windows.Forms.TextBox();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblApellido = new System.Windows.Forms.Label();
@@ -53,7 +52,7 @@
             this.dataGridViewContactos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewContactos.Location = new System.Drawing.Point(12, 250);
             this.dataGridViewContactos.Name = "dataGridViewContactos";
-            this.dataGridViewContactos.Size = new System.Drawing.Size(420, 188);
+            this.dataGridViewContactos.Size = new System.Drawing.Size(776, 188);
             this.dataGridViewContactos.TabIndex = 0;
             // 
             // txtNombre
@@ -77,13 +76,6 @@
             this.txtDireccion.Size = new System.Drawing.Size(100, 20);
             this.txtDireccion.TabIndex = 3;
             // 
-            // txtFechaNacimiento
-            // 
-            this.txtFechaNacimiento.Location = new System.Drawing.Point(205, 121);
-            this.txtFechaNacimiento.Name = "txtFechaNacimiento";
-            this.txtFechaNacimiento.Size = new System.Drawing.Size(100, 20);
-            this.txtFechaNacimiento.TabIndex = 4;
-            // 
             // txtCelular
             // 
             this.txtCelular.Location = new System.Drawing.Point(205, 147);
@@ -94,7 +86,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(113, 46);
+            this.lblNombre.Location = new System.Drawing.Point(91, 46);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(44, 13);
             this.lblNombre.TabIndex = 6;
@@ -104,7 +96,7 @@
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Location = new System.Drawing.Point(113, 69);
+            this.lblApellido.Location = new System.Drawing.Point(91, 69);
             this.lblApellido.Name = "lblApellido";
             this.lblApellido.Size = new System.Drawing.Size(44, 13);
             this.lblApellido.TabIndex = 7;
@@ -113,16 +105,17 @@
             // lblDireccion
             // 
             this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Location = new System.Drawing.Point(113, 95);
+            this.lblDireccion.Location = new System.Drawing.Point(91, 95);
             this.lblDireccion.Name = "lblDireccion";
             this.lblDireccion.Size = new System.Drawing.Size(52, 13);
             this.lblDireccion.TabIndex = 8;
             this.lblDireccion.Text = "Direccion";
+            this.lblDireccion.Click += new System.EventHandler(this.lblDireccion_Click);
             // 
             // lblFechaNacimiento
             // 
             this.lblFechaNacimiento.AutoSize = true;
-            this.lblFechaNacimiento.Location = new System.Drawing.Point(91, 124);
+            this.lblFechaNacimiento.Location = new System.Drawing.Point(91, 121);
             this.lblFechaNacimiento.Name = "lblFechaNacimiento";
             this.lblFechaNacimiento.Size = new System.Drawing.Size(108, 13);
             this.lblFechaNacimiento.TabIndex = 9;
@@ -131,7 +124,7 @@
             // lblCelular
             // 
             this.lblCelular.AutoSize = true;
-            this.lblCelular.Location = new System.Drawing.Point(113, 147);
+            this.lblCelular.Location = new System.Drawing.Point(91, 147);
             this.lblCelular.Name = "lblCelular";
             this.lblCelular.Size = new System.Drawing.Size(39, 13);
             this.lblCelular.TabIndex = 10;
@@ -139,7 +132,7 @@
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(341, 36);
+            this.btnInsertar.Location = new System.Drawing.Point(328, 24);
             this.btnInsertar.Name = "btnInsertar";
             this.btnInsertar.Size = new System.Drawing.Size(75, 23);
             this.btnInsertar.TabIndex = 11;
@@ -149,7 +142,7 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(341, 71);
+            this.btnModificar.Location = new System.Drawing.Point(328, 55);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 23);
             this.btnModificar.TabIndex = 12;
@@ -159,7 +152,7 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(341, 100);
+            this.btnBuscar.Location = new System.Drawing.Point(434, 221);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 13;
@@ -169,7 +162,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(341, 137);
+            this.btnEliminar.Location = new System.Drawing.Point(328, 86);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 14;
@@ -179,14 +172,14 @@
             // 
             // dtpFechaNacimiento
             // 
-            this.dtpFechaNacimiento.Location = new System.Drawing.Point(154, 211);
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(205, 121);
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
             this.dtpFechaNacimiento.Size = new System.Drawing.Size(200, 20);
             this.dtpFechaNacimiento.TabIndex = 15;
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(440, 43);
+            this.txtID.Location = new System.Drawing.Point(328, 224);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(100, 20);
             this.txtID.TabIndex = 16;
@@ -208,7 +201,6 @@
             this.Controls.Add(this.lblApellido);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.txtCelular);
-            this.Controls.Add(this.txtFechaNacimiento);
             this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.txtNombre);
@@ -228,7 +220,6 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.TextBox txtDireccion;
-        private System.Windows.Forms.TextBox txtFechaNacimiento;
         private System.Windows.Forms.TextBox txtCelular;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblApellido;
